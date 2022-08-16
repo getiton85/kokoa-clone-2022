@@ -21,12 +21,12 @@ body {
   width: 60%;
   opacity: 0.6;
 }
-#Login-form {
+#login-form {
   display: flex;
   flex-direction: column;
   margin: 0px 30px;
 }
-#Login-form input {
+#login-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
@@ -34,9 +34,9 @@ body {
   margin-bottom: 25px;
   transition: border-color 0.8s ease-in-out;
 }
-#Login-form input::placeholder {
+#login-form input::placeholder {
   color: rgba(0, 0, 0, 0.4);
 }
-#Login-form input:focus {
+#login-form input:focus {
   border-color: var(--yellow);
 }
